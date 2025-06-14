@@ -1,0 +1,19 @@
+Personal Portfolio
+------------------------
+Online Resume (CV) of yours which will help you to define yourself online.
+Main project folder
+Portfolio/
+index.html -- main code file
+css/
+  style.css
+images/
+js/  
+    script.js
+
+==================================================
+Intro
+About Me
+Skills
+Projects
+Contact Details
+

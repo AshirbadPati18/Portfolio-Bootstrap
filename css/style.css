@@ -1,0 +1,14 @@
+body{
+    font-family:'Roboto',sans-serif;
+    scroll-behavior: smooth;
+}
+.navbar-brand{
+    font-weight:bold;
+}
+section{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+ /*header{
+    background: linear-gradient(rgba(0,0,0,0,6),rgba(0,0,0,0,6));
+ }*/
