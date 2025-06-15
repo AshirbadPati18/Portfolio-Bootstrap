@@ -5,7 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ashirbad Pati</title>
-    <link href="css/style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- FontAwesome Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Bootstrap CSS Link -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
@@ -22,18 +26,18 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <ul class="navbar-nav mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
+                        <a class="nav-link text-white" href="#about">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#projects">Projects</a>
+                        <a class="nav-link text-white" href="#projects">Projects</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#skills">Skills</a>
+                        <a class="nav-link text-white" href="#skills">Skills</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#contacts">Contacts</a>
+                        <a class="nav-link text-white" href="#contacts">Contacts</a>
                     </li>
                 </ul>
             </div>
@@ -41,8 +45,8 @@
     </nav>
     <!-- Intro Section -->
     <header style="height: 100vh;" class="text-center d-flex align-items-center">
-        <div class="container">
-            <h1 class="display-4 fw-bold">Hi,I'm Ashirbad Pati</h1>
+        <div class="container text-white">
+            <h1 class="display-4 fw-bold">Hi,I'm <span class="text-warning">Ashirbad Pati</span></h1>
             <p class="lead">Full Stack Developer Expert | JAVA & MERN STACK EXPERT | Devops Engg</p>
             <a href="#projects" class="btn btn-primary btn-lg mt-3">See my work here</a>
         </div>
@@ -53,7 +57,7 @@
             <h2 class="text-center mb-4">About Me</h2>
             <div class="row align-items-center">
                 <div class="col-md-5">
-                    <img src="/Portfolio/images/IMG_20250318_030902.jpg" alt="Your Photo" class="img-fluid rounded">
+                    <img src="images/IMG_20250318_030902.jpg" alt="Your Photo" class="img-fluid rounded">
 
                 </div>
                 <div class="col-md-7">
@@ -81,11 +85,12 @@
             <div class="row g-4">
                 <div class="col-md-4">
                     <div class="card" style="width: 18rem;">
-                        <img src="/Portfolio/images/todoapp.jpg" class="card-img-top" alt="...">
+                        <img src="images/todoapp.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Todo App</h5>
                             <p class="card-text">A full featured todo app which is built with MERN stack.
-                                Frontend with React and Bootstarp backend created with node and express with MongoDB database. 
+                                Frontend with React and Bootstarp backend created with node and express with MongoDB
+                                database.
                             </p>
                             <a href="#" class="btn btn-outline-primary">Live Demo</a>
                         </div>
@@ -93,10 +98,11 @@
                 </div>
                 <div class="col-md-4">
                     <div class="card" style="width: 18rem;">
-                        <img src="/Portfolio/images/portfolioapp.png" class="card-img-top" alt="...">
+                        <img src="images/portfolioapp.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Portfolio</h5>
-                            <p class="card-text">My personal portfolio built with Bootstrap 5 and deployed it with Netlify.
+                            <p class="card-text">My personal portfolio built with Bootstrap 5 and deployed it with
+                                Netlify.
                                 It's completelt Responsive Design which is created to provide user friendly experince.
                             </p>
                             <a href="#" class="btn btn-outline-primary">Live Demo</a>
@@ -105,11 +111,12 @@
                 </div>
                 <div class="col-md-4">
                     <div class="card" style="width: 18rem;">
-                        <img src="/Portfolio/images/blogapp.jpg" class="card-img-top" alt="...">
+                        <img src="images/blogapp.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Blog App</h5>
-                            <p class="card-text">A fullstack blog application using Node JS,express js and MongoDB, frontend agian I used React with 
-                                Bootstarp to make it responsive. 
+                            <p class="card-text">A fullstack blog application using Node JS,express js and MongoDB,
+                                frontend agian I used React with
+                                Bootstarp to make it responsive.
                             </p>
                             <a href="#" class="btn btn-outline-primary">Live Demo</a>
                         </div>
@@ -120,20 +127,128 @@
     </section>
     <!-- Skills Section -->
     <section id="skills">
-         <div class="container">
-            <h2 class="text-center my-5">Skills</h2>
-         </div>
+        <div class="container">
+            <h2 class="text-center my-5">My Skills</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-2">
+                    <div class="skill-circle bg-danger">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/768px-HTML5_logo_and_wordmark.svg.png"
+                            alt="HTML" class="img-fluid" width="50">
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="skill-circle bg-warning">
+                        <img src="https://images.seeklogo.com/logo-png/18/2/css3-logo-png_seeklogo-186678.png"
+                            alt="HTML" class="img-fluid" width="50">
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="skill-circle bg-info">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" alt="HTML"
+                            class="img-fluid" width="50">
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="skill-circle bg-info">MySQL</div>
+                </div>
+                <div class="col-md-2">
+                    <div class="skill-circle bg-black">
+                        <img src="https://epss.ucla.edu/static/bootstrap-5.2.3/site/static/docs/5.2/assets/brand/bootstrap-social-logo.png"
+                            alt="bootstrap" class="img-fluid" width="50">
+                    </div>
+                    <!-- <div class=" col skill-circle">Bootstrap</div> -->
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!--Certification Section -->
+    <section id="certification">
+        <div class="container my-4">
+            <h2 class="text-center mb-4">Certification & Achievents</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card shadow border-0">
+                    <div class="card-body text-center">
+                        <i class="fa-solid fa-award fa-2xl" style="color: #211c1d;"></i>
+                        <h3 class="mt-3">Google UX Design Certificate</h3>
+                        <p class="text-muted">Completed in 2024</p>
+                        <span class="badge bg-success">Certified</span>
+                    </div>
+                </div>
+             </div>
+            
+            <div class="col-md-4">
+                <div class="card shadow border-0">
+                <div class="card-body text-center">
+                    <i class="fa-solid fa-trophy fa-2xl" style="color: #075ef2;"></i>
+                    <h3 class="mt-3">Winner Of Hackathon 2025</h3>
+                    <p class="text-muted">1st Place - Web Development Challange</p>
+                    <span class="badge bg-primary">Awarded</span>
+                </div>
+            </div>
+k
+        </div>
+        <div class="col-md-4">
+            <div class="card shadow border-0">
+            <div class="card-body text-center">
+                <i class="fa-solid fa-award fa-2xl" style="color: #211c1d;"></i>
+                <h3 class="mt-3">AI/ML in Python Excellence</h3>
+                <p class="text-muted">Completed In 2025</p>
+                <span class="badge bg-success">Certified</span>
+            </div>
+        </div>
+
+    </div>
+
+        </div>
+
     </section>
     <!-- Contact Section -->
-    <section is="contacts">
+    <section id="contacts">
         <div class="container">
-            <h2 class="text-center my-5">Contacts</h2>
-         </div>
+            <h2 class="text-center my-5">Contact Me</h2>
+            <div class="row">
+                <div class="col-md-5">
+                    <div class="p-4 border border-black border-2 rounded">
+                        <h4>Get In Touch</h4>
+                        <p><i class="fa-solid fa-envelope"></i> ashirbadpati0@gmail.com</p>
+                        <p><i class="fa-solid fa-phone-volume"></i> +91 8658109945</p>
+                        <p><i class="fa-solid fa-location-dot"></i> Bhubaneswar,Odisha</p>
+                    </div>
+                    <div class="mt-4 text-center">
+                        <a href="#"><i class="fa-brands fa-linkedin fa-2xl" style="color: #040d4e;"></i></a>
+                        <a href="#"><i class="fa-brands fa-youtube fa-2xl" style="color: #fd0d0d;"></i></a>
+                        <a href="#"><i class="fa-brands fa-square-x-twitter fa-2xl" style="color: #070713;"></i></a>
+                        <a href="#"><i class="fa-brands fa-square-instagram fa-2xl" style="color: #941063;"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-7">
+                    <form class="p-4 border border-black border-2 rounded bg-light">
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Enter Full Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Chris Williams">
+                        </div>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Email Address</label>
+                            <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                        </div>
+                        <div class="mb-3">
+                            <label for="text" class="form-label">Enter Your Texts</label>
+                            <textarea class="form-control" id="text" rows="3"></textarea>
+                          </div>
+                          <div class="mb-3">
+                            <button class="btn btn-primary w-100">Send Message</button>
+                          </div>
+                    </form>
+                </div>
+            </div>
+        </div>
     </section>
     <!-- Footer Section -->
-     <footer class="text-center py-3">
+    <footer class="text-center py-3 text-white">
         <p>&copy;2025 Ashirbad Pati | All rights reserved</p>
-     </footer>
+    </footer>
     <!-- Bootstarp Script Link -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
